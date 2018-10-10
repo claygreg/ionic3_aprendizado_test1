@@ -1,0 +1,41 @@
+<!--
+  Generated template for the IntroPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-content>
+
+    <ion-slides pager>
+
+        <ion-slide class="slide_image">
+            <img src="assets/images/imagem1.png" alt="">
+          <h2>Let's go!</h2>
+          <br>
+          <div>
+            <p>
+              Este meu App terá funções incríveis. Ele foi feito para impressionar você.
+            </p>
+            <p>
+              Ficou curioso? <strong>Veja mais!</strong>
+            </p>
+          </div>
+        </ion-slide>
+      
+        <ion-slide class="slide_image">
+            <img src="assets/images/imagem2.png" alt="">
+          <h2>We need you!</h2>
+        </ion-slide>
+      
+        <ion-slide class="slide_image">
+            <img src="assets/images/imagem3.png" alt="">
+          <h2>Staaaart!</h2>
+          <button><a (click)="goToTabsPage()">Continuar</a></button>
+          <a (swipe)="goToTabsPage()"></a>
+
+        </ion-slide>
+      
+      </ion-slides>
+
+</ion-content>
